@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(#ffb5b5, #ffe7e7);
+}
+
+.row {
+  margin: 4vh 0;
+}
+
+input {
+  height: 40px;
+  text-align: center;
+}
