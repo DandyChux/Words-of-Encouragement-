@@ -26,10 +26,11 @@ function encourage() {
   // Get the names and words of encouragement
   let name = document.getElementById("name").value;
   let encouragement = document.getElementById('encouragement').value;
+  let postScript = document.getElementById('post-script').value;
   
   // Combine those into text
-  let message = `Hello ${name}, I have something I would like to tell you. ${encouragement} Have a nice day!`;
+  let message = `Hello ${name}, I have something I would like to tell you. ${encouragement} Have a nice day!. Oh by the way, ${postScript}`;
   
   // Render text to the user
   renderTTS(message);
-}
+} 
